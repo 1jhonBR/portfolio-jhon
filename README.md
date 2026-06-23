@@ -1,16 +1,52 @@
-# React + Vite
+# Portfólio João Paz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido com React, Vite e Tailwind CSS.
 
-Currently, two official plugins are available:
+Este projeto tem como objetivo apresentar minha trajetória, habilidades, projetos e evolução como desenvolvedor em formação, unindo minha experiência anterior com design, criação visual e social media ao desenvolvimento de interfaces modernas para web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivo do projeto
 
-## React Compiler
+Criar uma aplicação front-end profissional, responsiva e publicada online, servindo como vitrine para processos seletivos, networking e evolução prática no GitHub.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Além de ser um portfólio visual, este projeto também funciona como registro de estudo e prática com tecnologias modernas do ecossistema front-end.
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- Git
+- GitHub
+
+## Funcionalidades planejadas
+
+- Página inicial com apresentação profissional
+- Seção sobre mim
+- Lista de habilidades técnicas
+- Cards de projetos
+- Links para GitHub, LinkedIn e contato
+- Layout responsivo para desktop e mobile
+- Deploy online com Vercel
+
+## Status do projeto
+
+Em desenvolvimento.
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto, estou praticando:
+
+- Estruturação de projetos React
+- Componentização
+- Estilização com Tailwind CSS
+- Versionamento com Git
+- Organização de commits
+- Publicação de projetos no GitHub
+- Construção de portfólio profissional
+
+## Autor
+
+João Paz
+
+GitHub: [@1jhonBR](https://github.com/1jhonBR)
