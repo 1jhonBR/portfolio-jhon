@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
       <div className="max-w-3x1 text-center">
-        <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-violet-400">
+        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-violet-400">
           Desenvolvedor full stack em formação
         </p>
 
