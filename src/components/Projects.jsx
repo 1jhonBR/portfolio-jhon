@@ -7,6 +7,8 @@ const projects = [
     status: "Em desenvolvimento",
     featured: true,
     badge: "Este site!",
+    liveUrl: "#",
+    githubUrl: "https://github.com/1jhonBR/portfolio-jhon",
   },
 
   {
@@ -15,6 +17,7 @@ const projects = [
       "Landing page comercial criada em WordPress para apresentação e venda de um produto digital para streamers.",
     tags: ["WordPress", "UI/UX", "Copywriting", "Produto Digital"],
     status: "Projeto comercial",
+    liveUrl: "https://ggoverlays.com.br",
   },
 
   {
@@ -23,6 +26,8 @@ const projects = [
       "Projeto planejado para praticar Python, consumo de API, lógica de programação e tratamento de dados.",
     tags: ["Python", "API", "JSON", "Lógica"],
     status: "Planejado",
+    liveUrl: "#",
+    githubUrl: "#",
   },
 ];
 
@@ -86,6 +91,32 @@ function Projects() {
                     {tag}
                   </span>
                 ))}
+              </div>
+
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={`rounded-full bg-violet-500 px-4 py-2 text-xs font-semibold text-white transition hover:bg-violet-400 ${
+                    project.githubUrl
+                      ? "inline-flex"
+                      : "flex w-full justify-center"
+                  }`}
+                >
+                  Visualizar projeto ↗
+                </a>
+
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-full border border-white/10 px-4 py-2 text-xs font-semibold text-zinc-200 transition hover:border-violet-400 hover:text-violet-300"
+                  >
+                    Ver código ↗
+                  </a>
+                )}
               </div>
             </div>
           ))}
